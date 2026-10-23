@@ -17,7 +17,7 @@ from mcp.types import ToolAnnotations
 load_dotenv()
 
 mcp = FastMCP(
-    "医疗：医院信息搜索",
+    "医院信息搜索",
     instructions='先按医院名称、类型、等级、专业类型或省份检索，再使用返回的 hospitalId 查询院区、科室、联系方式与完整简介。',
     dependencies=["python-dotenv", "requests"],
 )
